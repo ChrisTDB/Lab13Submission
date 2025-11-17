@@ -4,7 +4,7 @@ import pygame
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from Lab12_corta1 import AlienInvasion
+    from Lab13_corta1 import AlienInvasion
 class Arsenal:
     def __init__(self, game: 'AlienInvasion'):
         self.game = game

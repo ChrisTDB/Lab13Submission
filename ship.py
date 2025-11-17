@@ -2,7 +2,7 @@ import pygame
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from Lab12_corta1 import AlienInvasion
+    from Lab13_corta1 import AlienInvasion
     from arsenal import Arsenal
 
 class Ship:

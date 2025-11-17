@@ -3,7 +3,7 @@ from pygame.sprite import Sprite
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from Lab12_corta1 import AlienInvasion
+    from Lab13_corta1 import AlienInvasion
 
 class Bullet(Sprite):
     def __init__(self, game: 'AlienInvasion'):
