@@ -99,7 +99,7 @@ class AlienFleet:
     def check_fleet_left(self):
         alien: Alien
         for alien in self.fleet:
-            if alien.rect.left >= self.settings.screen_w:
+            if alien.rect.right < 0:
                 return True
         return False
 
